@@ -1,0 +1,232 @@
+.container-subfooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background: url('/sub-footer.jpeg') no-repeat;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  .content {
+    padding: 20px;
+    border-radius: 10px;
+    //box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    
+  }
+  
+  .text {
+    margin-bottom: 20px;
+  }
+  
+  
+  .form {
+    max-width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    background-position: center;
+    flex-direction: row;
+    text-align: center;
+      
+  }
+  
+  .form input {
+    padding: 10px;
+    border: 1px;
+    border-radius: 5px;
+    width: 80%;
+    background: white;
+  }
+  .form button {
+    margin-right: 10px;
+    background-color: yellow;
+    border: none;
+    text-align: center;
+    text-size: 14px;
+    padding: 7px;
+    border-radius: 5px;
+  }
+  .input-button{
+    display: flex;
+    justify-content: center;
+  }
+  .text p{
+      padding: 10px;
+  }
+
+  
+
+
+/*
+
+.subfooter{
+      width: 100%;
+      padding-right: 20px;
+      height: 23vw;
+      place-self: center;
+      margin: 5px 0px 0px 5px;
+      align-self: center;
+      background: url('/sub-footer.jpeg') no-repeat;
+      background-size: 90%;
+      background-position: center;
+      position: relative;
+  }
+  
+  .subfooter-contents{ 
+      position: absolute;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5vw;
+      max-width: 100%;
+      bottom: 20%;
+      left: 6vw;
+      align-items: center;
+      animation: fadeIn 3s
+  }
+  
+  .subfooter-contents h2{
+      font-weight: 500;
+      color: white;
+      font-size: max(2.5vw,18px);
+      
+  }
+  .subfooter-contents p{
+      color: white;
+      font-size: 1vw;
+      max-width: 50%;
+  }
+  .subfooter-contents button{
+      border: none;
+      color: #747474;
+      font-weight: 500;
+      padding: 1vw 2.3vw;
+      background-color: white;
+      font-size: max(1vw,13px);
+      border-radius: 50px;
+  }
+  
+
+
+
+.container-subfooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  background: url('/sub-footer.jpeg') no-repeat;
+  color: white;
+  font-family: sans-serif;
+}
+
+.content {
+  padding: 20px;
+  border-radius: 10px;
+  //box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  
+}
+
+.text {
+  margin-bottom: 20px;
+}
+
+
+.form {
+  max-width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  background-position: center;
+  flex-direction: row;
+  text-align: center;
+    
+}
+
+.form input {
+  padding: 10px;
+  border: 1px;
+  border-radius: 5px;
+  width: 80%;
+  background: white;
+}
+.form button {
+  margin-right: 10px;
+  background-color: yellow;
+  border: none;
+  text-align: center;
+  text-size: 14px;
+  padding: 7px;
+  border-radius: 5px;
+}
+.input-button{
+  display: flex;
+  justify-content: center;
+}
+.text p{
+    padding: 10px;
+}
+
+
+
+
+
+/*
+
+.subfooter{
+    width: 100%;
+    padding-right: 20px;
+    height: 23vw;
+    place-self: center;
+    margin: 5px 0px 0px 5px;
+    align-self: center;
+    background: url('/sub-footer.jpeg') no-repeat;
+    background-size: 90%;
+    background-position: center;
+    position: relative;
+}
+
+.subfooter-contents{ 
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5vw;
+    max-width: 100%;
+    bottom: 20%;
+    left: 6vw;
+    align-items: center;
+    animation: fadeIn 3s
+}
+
+.subfooter-contents h2{
+    font-weight: 500;
+    color: white;
+    font-size: max(2.5vw,18px);
+    
+}
+.subfooter-contents p{
+    color: white;
+    font-size: 1vw;
+    max-width: 50%;
+}
+.subfooter-contents button{
+    border: none;
+    color: #747474;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: white;
+    font-size: max(1vw,13px);
+    border-radius: 50px;
+}
+*/
